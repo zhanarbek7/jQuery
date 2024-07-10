@@ -31,6 +31,10 @@
 // });
 
 // Triggering change of the value of h1 tag
-$("body").on("keypress", function(event){
-    $("h1").text(event.key);
-});
+// $("body").on("keypress", function(event){
+//     $("h1").text(event.key);
+// });
+
+// 4) Adding and Removing elements with jQuery
+$("h1").before("<button>New added button</button>")
+$(document).remove("h1")
